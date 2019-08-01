@@ -39,6 +39,7 @@ h1 {
   font-size: 62px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  color: #ffffff;
 }
 h2 {
   font-size: 28px;
@@ -56,28 +57,66 @@ h3 {
   z-index: -1;
   left: 0;
 }
-.logo {
+.head-logo {
   display: flex;
   align-items: center;
   margin-top: 23px;
 }
-.logo__symbol {
+.head-logo__symbol {
   font-family: 'Pacifico';
   font-size: 28px;
   color: #ffffff;
   display: inline-block;
 }
-.logo__text {
+.head-logo__text {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 14px;
   color: #626a6b;
   display: inline-block;
 }
-.logo__divider {
+.head-logo__divider {
   color: #17526e;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   display: inline-block;
+}
+.head-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 35px;
+  list-style-type: none;
+}
+.head-nav__item {
+  padding-left: 33px;
+}
+.head-nav__item a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #e9eaea;
+  font-size: 13px;
+  text-decoration: none;
+}
+.head-nav__item a:hover {
+  border-top: 2px solid #32b0ee;
+  padding-top: 35px;
+}
+.head-header {
+  text-align: center;
+  margin-top: 320px;
+}
+.head-header span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.head-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  color: #ffffff;
+}
+.head-content span {
+  color: #0eb493;
 }
