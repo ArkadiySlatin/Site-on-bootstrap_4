@@ -1,0 +1,91 @@
+/* Fonts */
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Pacifico';
+    src: url(../fonts/pacifico_[allfont.ru].ttf);
+}
+.fontPacifico {
+    font-family: 'Pacifico';
+    font-size: 28px;
+}
+.fontLight {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.fontRegular {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.fontSemibold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.fontExtrabold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+/* Colors */
+@colorTextWhite: #ffffff;
+@colorTextBlack: #062033;
+@colorTextGreen: #0eb493;
+@colorTextVessage: #5b646e;
+@colorTextMenu: #e9eaea;
+@backgraundFeatures: #f4f7f9;
+@backgraundFooter: #21b697;
+@backgraundTopHead: #101636;
+
+body {
+    margin: 0;
+    padding: 0;
+} 
+img {
+    max-width: 100%;
+}   
+
+h1 {
+    font-size: 62px;
+    .fontLight;
+}
+h2 {
+    font-size: 28px;
+    .fontExtrabold;
+}
+h3 {
+    font-size: 20px;
+    .fontSemibold;
+}
+/* Header */
+
+.owl-carousel {
+    position: absolute;
+    z-index: -1;
+    // max-width: 1490px;
+    left: 0;
+    
+    
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    &__symbol {
+        .fontPacifico;
+        color: @colorTextWhite;
+        display: inline-block;
+    }
+    &__text {
+       .fontLight;
+       font-size: 14px; 
+       color: #626a6b;
+       display: inline-block;
+    }
+    &__divider {
+        color: #17526e;
+        font-size: 18px;
+        .fontLight;
+        display: inline-block;
+    }
+}

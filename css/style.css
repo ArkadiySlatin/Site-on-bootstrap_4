@@ -1,0 +1,83 @@
+/* Fonts */
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'Pacifico';
+  src: url(../fonts/pacifico_[allfont.ru].ttf);
+}
+.fontPacifico {
+  font-family: 'Pacifico';
+  font-size: 28px;
+}
+.fontLight {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.fontRegular {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.fontSemibold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.fontExtrabold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+/* Colors */
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  font-size: 62px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+h2 {
+  font-size: 28px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+h3 {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+/* Header */
+.owl-carousel {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 23px;
+}
+.logo__symbol {
+  font-family: 'Pacifico';
+  font-size: 28px;
+  color: #ffffff;
+  display: inline-block;
+}
+.logo__text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #626a6b;
+  display: inline-block;
+}
+.logo__divider {
+  color: #17526e;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  display: inline-block;
+}
