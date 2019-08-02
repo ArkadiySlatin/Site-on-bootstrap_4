@@ -120,3 +120,25 @@ h3 {
 .head-content span {
   color: #0eb493;
 }
+.head-description {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ffffff;
+}
+.head-description span {
+  color: #0eb493;
+}
+.head-icon {
+  margin-top: 80px;
+  text-align: center;
+}
+.head-icon a {
+  color: #566f68;
+  margin-right: 16px;
+}
+.head-icon a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}

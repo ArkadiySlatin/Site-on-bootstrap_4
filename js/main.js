@@ -2,7 +2,9 @@ $(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:-1,
-        nav:true,
+        // nav:true,
+        dots: true,
+        // dotsEach: 3/true,
         responsive:{
             0:{
                 items:1
@@ -15,4 +17,6 @@ $(function(){
             }
         }
     });
+
+    
 });
